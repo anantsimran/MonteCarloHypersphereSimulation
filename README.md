@@ -29,7 +29,7 @@ We observe that for approximately equal amounts of CPU used, monte carlo returns
 ![](.README_images/0c050630.png)
 
 
-##Use of antithetic variables in monte carlo and calculation of pi.
+## Use of antithetic variables in monte carlo and calculation of pi.
 
 The method of antithetic random variable utilizes symmetrical characteristic of
 symmetry distribution. Here we will generate 4 identical distribution for calculation of pi.
@@ -43,6 +43,6 @@ Since the unit sphere is symmetrical in all four axis, All of the four distribut
 
 This would help us in reducing variance thus helping us reaching the confidence interval fastest.
 
-####Results
+#### Results
 
 For same number of simulations, we see that our value of pi becomes 4 times more precise on using antithetic variables.
