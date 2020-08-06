@@ -5,7 +5,7 @@ The project aims to calculate value of pi using MonteCarlo Simulation.
 
 ### Monte carlo method
 Extending the Buffon laplace method in n dimension, 
-we calculate hypersphere volume by generating a random number between -1 to 1 and check if it falls inside the hypersphere.
+we calculate hypersphere volume by generating a random number between -1 to 1 and checking if it falls inside the hypersphere.
 
 We do this m times, n trials each. We then use central limit theorem to calculate the confidence interval for our simulation.
 
